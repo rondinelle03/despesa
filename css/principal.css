@@ -21,6 +21,58 @@ header nav{
   color: blue
 }
 
+.EmbedFrame-header, .EmbedFrame-footer {
+    color: #2e353b;
+    background-color: white;
+    display: none;
+}
+
+fieldset {
+    border: 1px solid #e7e7e7;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.btn{
+  color: #ffffff !important;
+    background-color: #66978e !important;
+    border-color: #66978e !important;
+    border-radius: 4px;
+    height: 33px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.select-wrapper span.caret{
+  z-index: 20;
+  right: 7px;
+}
+
+.btn:hover{
+  background: #224436;
+}
+
+.alimentar-form input[type=text]{
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
 @media (min-width: 1200px){
 .container {
     width: 1170px;
