@@ -134,7 +134,7 @@ header nav{
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 10px 15px 10px 19px;
     border-radius: 4px;
     /* font-size: 13px; */
 }
@@ -260,9 +260,18 @@ footer ul li a{
  width: 6% !important;
  transition: .4s;
 }
-
+.sumir{
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  opacity: 1;
+  transition: .4s;
+}
 #movimento.row.ativado .col.s12.m3.l3 .sumir{
   display: none !important;
+  opacity: 0;
+  left: -40px;
+  transition: .4s;
 }
 
 #movimento.row.ativado .col.s12.m9.l9{
